@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kişisel Web Sayfam</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="typewriter">
+                <h1>Merhaba, Ben Enes</h1>
+            </div>
+        </header>
+        <button id="moreInfoButton" class="more-info-btn">Daha Fazla</button>
+        <button id="contactButton" class="contact-btn">Bana Ulaşın</button>
+    </div>
+
+    <!-- CV Popup -->
+    <div id="cvPopup" class="popup hidden">
+        <div class="popup-content">
+            <button id="closeCvPopup" class="close-btn">&times;</button>
+            <img src="images/a1.jpg" alt="Detaylı CV">
+        </div>
+    </div>
+
+    <!-- E-posta Popup -->
+    <div id="emailPopup" class="popup hidden">
+        <div class="popup-content email-popup">
+            <button id="closeEmailPopup" class="close-btn">&times;</button>
+            <h2>Bana Ulaşın</h2>
+            <p>E-posta adresim:  
+                <a href="mailto:enes.kuucukk@gmail.com" class="email-link">enes.kuucukk@gmail.com</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
